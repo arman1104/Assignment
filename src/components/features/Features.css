@@ -1,0 +1,76 @@
+.features-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.features-text-container h6 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #6941c6;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.1rem 0.5rem;
+  background-color: #efedf1;
+  border-radius: 1rem;
+}
+
+.features-text-container h2 {
+  font-size: 1.7rem;
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.features-text-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.card-conatainer {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card span {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive design */
+@media (min-width: 370px) and (max-width: 720px) {
+  .card-conatainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 720px) and (max-width: 1080px) {
+  .card-conatainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

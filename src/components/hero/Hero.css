@@ -1,0 +1,156 @@
+.hero-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #baa6e6;
+  border-radius: 1rem;
+  padding: 0.2rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border-radius: 1rem;
+  color: #a995d4;
+  border: 1px solid #baa6e6;
+  background-color: #ffff;
+}
+
+.span-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a995d4;
+}
+
+.textcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textcontainer h1 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.textcontainer p {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.hero-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.ply-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  border: 1px solid rgb(99, 93, 93);
+  outline: none;
+  background-color: transparent;
+}
+
+.btn1 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.btn1 svg {
+  border: 1px solid rgb(99, 93, 93);
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.1rem;
+}
+
+.btn2 {
+  border: 1px solid rgb(99, 93, 93);
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #7f56d9;
+}
+
+.Third-container-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Responsive design */
+
+/* For smaller screens */
+@media (max-width: 720px) {
+  .hero-btn-container {
+    flex-direction: column;
+  }
+
+  .textcontainer h1 {
+    font-size: 2rem;
+  }
+
+  .textcontainer p {
+    font-size: 0.8rem;
+  }
+
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* For tablet screens */
+@media (max-width: 1024px) {
+  .textcontainer h1 {
+    font-size: 2.2rem;
+  }
+
+  .textcontainer p {
+    font-size: 0.85rem;
+  }
+
+  .btn1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+    padding: 0.6rem 1rem;
+  }
+}
