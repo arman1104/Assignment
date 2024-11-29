@@ -4,6 +4,13 @@
   font-family: Arial, sans-serif;
 }
 
+.footer-main-container .list-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
 .list-container {
   display: flex;
   justify-content: space-evenly;
